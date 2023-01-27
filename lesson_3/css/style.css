@@ -1,0 +1,54 @@
+@import url("reset.css");
+
+a {
+  color: rgb(72, 73, 77);
+}
+
+.about__text {
+  color: rgb(197, 236, 19);
+}
+
+#characteristic__text {
+  color: rgb(239, 21, 21);
+}
+
+p.activity__text {
+  color: rgb(249, 14, 170);
+}
+
+.text.info {
+  color: rgb(16, 236, 207);
+}
+
+.first__text,
+.second__text {
+  color: rgb(16, 236, 16);
+}
+
+.literature__container ol {
+  color: rgb(135, 226, 23);
+}
+
+.literature__container .literature__title {
+  color: rgb(245, 68, 13);
+}
+
+.info__text * {
+  color: rgb(20, 8, 243);
+}
+
+.literature__container > p {
+  color: rgb(20, 8, 243);
+}
+
+.literature__container ~ p {
+  color: rgb(11, 241, 26);
+}
+
+.literature__container + p {
+  color: rgb(11, 206, 241);
+}
+
+[class*="__title"] {
+  color: rgb(174, 13, 238);
+}
