@@ -1,0 +1,135 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,900,italic&display=swap);
+
+@font-face {
+  font-family: "Caveat";
+  src: url("../fonts/Caveat-Medium.woff2") format("woff2"),
+    url("../fonts/Caveat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("../fonts/Caveat-Regular.woff2") format("woff2"),
+    url("../fonts/Caveat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster-Regular.woff2") format("woff2"),
+    url("../fonts/Lobster-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Italic.woff2") format("woff2"),
+    url("../fonts/Montserrat-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 68px;
+  text-align: center;
+  font-family: "Lobster", "Arial", sans-serif;
+  color: rgb(15, 15, 172);
+  text-shadow: 2px 2px 5px rgb(12, 127, 234), -2px -2px 2px red;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+}
+
+.header__menu {
+  font-family: "Montserrat", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  line-height: 1.5;
+  color: rgb(249, 10, 10);
+}
+
+[class*="__title"] {
+  font-family: "Caveat", fantasy;
+  font-size: 46px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(157, 226, 19);
+}
+
+.footer__title {
+  font-family: "Montserrat", serif;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: overline;
+}
+
+.structure__text {
+  font-family: "Caveat", cursive;
+  font-size: 28px;
+  white-space: nowrap;
+}
+
+.climate__text {
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: justify;
+  text-indent: 20px;
+  text-transform: capitalize;
+}
+
+.currents__text {
+  font-family: "Lobster", "Arial", sans-serif;
+  font-size: 25px;
+  line-height: 1.4;
+  text-decoration: line-through;
+}
+
+.world__text {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  text-align: right;
+  text-transform: lowercase;
+}
+
+.footer__container ul {
+  text-decoration: underline;
+  line-height: 1.5;
+}
