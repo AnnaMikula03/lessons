@@ -1,0 +1,128 @@
+@import url("reset.css");
+
+/* ---------- */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 14px;
+  line-height: 1.78;
+}
+
+[class*="__title"] {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #212529;
+}
+
+/* Header */
+
+.header {
+  margin: 0 0 15px 0;
+}
+
+.header__container {
+  max-width: 846px;
+  margin: 0 auto;
+  padding: 15px 15px 0;
+}
+
+.header__list {
+  font-size: 0;
+}
+
+.header__list li {
+  font-size: 12px;
+  line-height: 1.25rem;
+  display: inline-block;
+  margin: 0 25px 0 0;
+  vertical-align: middle;
+}
+.author {
+  font-weight: 700;
+}
+
+/* Main */
+.main {
+  margin: 0 0 80px 0;
+}
+
+.main__container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.block-first {
+  max-width: 816px;
+  margin: 0 auto 55px;
+}
+
+.block-first__title {
+  max-width: 400px;
+  margin: 0 0 40px 0;
+}
+
+.block-first__text p,
+.block-second__text p {
+  margin: 0 0 40px 0;
+}
+
+.main__img {
+  margin: 0 0 80px 0;
+  font-size: 0;
+}
+.image-1 {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-2 {
+  max-width: 100%;
+  margin: 0 30px 0 0;
+}
+
+.image-3 {
+  max-width: 100%;
+}
+
+.block-second {
+  max-width: 816px;
+  margin: 0 auto 80px;
+}
+
+.block-second__title {
+  max-width: 605px;
+  margin: 0 0 40px 0;
+}
+
+.block-third {
+  max-width: 816px;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+.footer__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+  box-sizing: content-box;
+}
+.footer__title {
+  margin: 0 0 30px 0;
+}
+.footer__text-first {
+  margin: 0 0 30px 0;
+  color: #0b437a;
+  font-weight: 900;
+  max-height: 150px;
+  overflow: auto;
+}
+.footer__text-second {
+  height: 100px;
+  overflow: hidden;
+  color: #ec490e;
+  font-weight: 900;
+}
