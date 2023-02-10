@@ -1,0 +1,155 @@
+@import url("reset.css");
+
+/* ---------- */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 14px;
+  line-height: 1.79;
+}
+
+[class*="__container"] {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  margin: 0 0 15px 0;
+}
+
+.header__container {
+  max-width: 846px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.header__list {
+  font-size: 0;
+}
+
+.header__list li {
+  font-size: 12px;
+  line-height: 1.67;
+  display: inline-block;
+  margin: 0 25px 0 0;
+  vertical-align: middle;
+}
+.author {
+  font-weight: 700;
+}
+
+/* Main */
+.main {
+  margin: 0 0 80px 0;
+}
+
+.article-one {
+  margin: 0 0 150px 0;
+}
+
+.article__text {
+  max-width: 816px;
+  margin: 0 auto 80px;
+}
+.article__title {
+  max-width: 605px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #212529;
+  margin: 0 0 40px 0;
+}
+
+.article__text p {
+  margin-bottom: 40px;
+}
+
+.text-last {
+  margin-bottom: 0;
+}
+
+.article__image {
+  font-size: 0;
+  margin: 0 0 80px 0;
+}
+.image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.image_1 {
+  display: block;
+  margin: 0 auto;
+}
+
+.image_2,
+.image_5 {
+  margin: 0 30px 0 0;
+}
+
+.image_4 {
+  width: 100%;
+}
+
+.article-two .article__image {
+  margin: 0 0 100px 0;
+}
+
+.article-two .article__text {
+  margin-bottom: 100px;
+}
+
+.image_2 {
+  margin: 0 30px 0 0;
+}
+
+.article-two .text-last {
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+.footer__container {
+  max-width: 816px;
+  padding: 30px 0;
+}
+
+.footer__text > div {
+  margin-bottom: 30px;
+}
+.footer__text .text__button {
+  margin-bottom: 0;
+}
+.text__one {
+  border: 5px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.text__second {
+  border: 5px dashed red;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.text__third {
+  border: 5px dotted red;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.text__fourth {
+  border-bottom: 5px double red;
+  border-radius: 80px;
+}
+.text__fifth {
+  outline: 15px solid blue;
+}
+.text__sixth {
+  box-shadow: 15px 5px 20px 0px rgb(174, 30, 30);
+}
+.footer__text .text__seventh {
+  box-shadow: inset 0px 10px 20px 0px rgb(24, 235, 9);
+  margin-bottom: 0;
+}
