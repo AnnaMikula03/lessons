@@ -1,0 +1,166 @@
+@import url("reset.css");
+
+/* ---------- */
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #637381;
+}
+
+[class*="__container"] {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  background: url("../img/01.jpg") 50% / cover no-repeat;
+}
+
+.header__content {
+  padding-top: 330px;
+  padding-bottom: 100px;
+}
+.header__date,
+.header__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #e5e5e5;
+}
+
+.header__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #f8f9fa;
+}
+
+.header__date,
+.header__title {
+  margin-bottom: 15px;
+}
+
+/* Main */
+
+.page__lists {
+  padding: 150px 0 70px 0;
+}
+.lists {
+}
+.lists__title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.08;
+  color: #212b36;
+  margin-bottom: 45px;
+}
+.lists__item {
+  margin-bottom: 60px;
+}
+.lists__list li {
+  margin-bottom: 18px;
+}
+
+.item-one li {
+  background: url("../img/02.svg") 0 50% no-repeat;
+  padding-left: 18px;
+  min-height: 20px;
+  padding-top: 2px;
+}
+.item-two li {
+  background: url("../img/03.svg") 0 50% no-repeat;
+  padding-left: 30px;
+  min-height: 20px;
+  padding-top: 2px;
+}
+.item-three li {
+  background: url("../img/04.svg") 0 50% no-repeat;
+  padding-left: 30px;
+  min-height: 20px;
+  padding-top: 2px;
+}
+.item-four li {
+  background: url("../img/05.svg") 0 50% no-repeat;
+  padding-left: 30px;
+  min-height: 20px;
+  padding-top: 2px;
+}
+.item-five li {
+  background: url("../img/06.svg") 0 50% no-repeat;
+  padding-left: 30px;
+  min-height: 20px;
+  padding-top: 2px;
+}
+.item-six li {
+  background: url("../img/07.svg") 0 50% no-repeat;
+  padding-left: 30px;
+  min-height: 20px;
+  padding-top: 2px;
+}
+.item-six {
+  margin: 0;
+}
+
+.page__speakers {
+  padding: 145px 0;
+  background: url("../img/08.png") 75% no-repeat,
+    url("../img/09.png") 100% 100% no-repeat,
+    #f4f7ff url("../img/10.png") 100% 100% no-repeat;
+}
+
+.speakers__price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #3056d3;
+  margin-bottom: 13px;
+}
+.speakers__title {
+  font-size: 36px;
+  line-height: 1.25;
+  color: #212b36;
+  margin-bottom: 15px;
+}
+.speakers__text {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+.speakers__button {
+  display: inline-block;
+  background: #3056d3;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* Footer */
+
+.footer {
+  padding: 50px 0;
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 3%,
+      rgba(16, 227, 222, 0.633578431372549) 39%,
+      rgba(14, 21, 194, 0.31985294117647056) 55%,
+      rgba(9, 121, 54, 1) 90%,
+      rgba(0, 212, 255, 1) 100%
+    ),
+    url("../img/lake.jpg") 50% no-repeat;
+  background-attachment: fixed;
+}
+
+.footer__text {
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(201, 15, 15, 0.623);
+  margin-bottom: 50px;
+}
